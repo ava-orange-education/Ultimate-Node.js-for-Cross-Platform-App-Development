@@ -1,0 +1,30 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "This is sample node application",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "keywords": [
+    "Node",
+    "Introduction"
+  ],
+  "author": "Ramesh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.2",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.8.2",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-mung": "^0.5.1",
+    "express-validator": "^7.0.1",
+    "xml2js": "^0.6.2"
+  }
+}
