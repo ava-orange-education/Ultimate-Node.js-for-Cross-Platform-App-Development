@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+html, body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000c0c;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 2.2em;
+  }
+  .header > h1, .header > h4, .header > h2{
+    margin-bottom: 0;
+  }
+  .header > h4, .header > h2{
+    margin-top: 10px;
+  }
+
+  .homeOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;   
+    background-size: 38rem 47rem;
+    margin-right: 10px;
+    padding: 50px;
+    background-color: #025331;
+}
+  
+  .homeInnerContainer {
+    width: 20%;
+  }
+  
+  .homeInput {
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 17px;
+      background: #29ffbb;
+      padding: 20px;
+      border-radius: 5px;
+      border: 2.6px solid #1A1A1D;
+      display: inline-block;
+      width: 100%;
+      cursor: pointer;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .homeOuterContainer {
+      height: 100%;
+    }
+  
+    .homeInnerContainer {
+      width: 90%;
+    }
+    .header{
+      display: none;
+    }
+    .heading{
+      color: #000000;
+      background-color: white;
+      padding: 0;
+      border-radius: 8px;
+      opacity: 0.8;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }

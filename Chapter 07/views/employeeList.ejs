@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Employees!</title>
+  <style>
+    ul li{
+      padding: 5px;
+      margin: 10px;
+      border: 1px solid chocolate;
+      width: 200px;
+      float: left;
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>List of all Employees!</h1>
+  <ul>
+    <% for (let emp of employees) { %>
+      <li> 
+        <div><b>Name:</b> <%=emp.name %> </div>
+        <div><b>Age:</b> <%=emp.age %> </div>
+        <div><b>Date Of Joining:</b><%=emp.doj %> </div>
+        <div><b>Salary:</b><%=emp.salary %> </div>      
+      </li>
+    <% } %>
+  </ul>
+
+</body>
+</html>

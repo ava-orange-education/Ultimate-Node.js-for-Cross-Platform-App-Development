@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-express-authentication-app",
+  "version": "1.0.0",
+  "description": "Simple CRUD projects with express implementing authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "rest",
+    "api",
+    "postgresql",
+    "jwt"
+  ],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3"
+  }
+}
