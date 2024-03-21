@@ -1,1 +1,0 @@
-This is an example of input text file used for pipe operations.
